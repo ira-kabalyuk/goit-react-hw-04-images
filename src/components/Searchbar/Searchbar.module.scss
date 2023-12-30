@@ -1,0 +1,29 @@
+.header { 
+  background-color: #4004FD;
+  padding: 8px;
+}
+
+.form {
+  position: relative;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  border-radius: 3px 0 0 3px;
+  background-color: #fff;
+  border: none;
+  height: 100%;
+}
+
+.input {
+  border-radius: 0 3px 3px 0;
+  border: none;
+  width: 220px;
+
+  &:focus {
+    outline: none;
+    background-color: #fff;
+  }
+}

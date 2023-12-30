@@ -1,0 +1,9 @@
+
+.gallery {
+  max-width: 1024px;
+  margin: auto;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
