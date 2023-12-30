@@ -53,6 +53,7 @@ const App = () => {
     const searchValue = event.currentTarget.elements.search.value;
     setSearchTerm(searchValue);
     setPage(1);
+    setImages([]);
   };
 
   const fetchImagesByQuery = async (searchTerm, page) => {
