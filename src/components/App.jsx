@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { requestImages } from 'services/api';
+import { requestImages } from './services/api';
 
-import { STATUSES } from 'utils/constants';
+import { STATUSES } from './utils/constants';
 
 import { Loader } from "./Loader";
 import { ImageGallery } from './ImageGallery';
